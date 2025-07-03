@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.index),
     path("create/", views.Create_account),
-    
+    path("prod/", views.prod1.html),
 
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
