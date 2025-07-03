@@ -9,6 +9,9 @@ def tarefass(request):
 
 def index(request):
     return render(request, "index.html")
-
+    
 def Create_account(request):
     return render(request,"Create_account.html")
+def prod1(request):
+    return render(request, "prod1.htm")
+    
